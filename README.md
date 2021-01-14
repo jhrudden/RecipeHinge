@@ -8,7 +8,7 @@ As of current, Recipe Hinge is able to transform a User's food interests into li
 ![Alt text](https://media.giphy.com/media/yoqZQJIZisfbY46Vs2/giphy.gif)
 
 ![Alt text](https://media.giphy.com/media/mf2IV436o9VNrSSTsO/giphy.gif)
-![Alt text](https://media.giphy.com/media/BqtmRLxsvAablwq12o/giphy.gif)
+![Alt text](https://media.giphy.com/media/dmomEpAClHRF1kXnO5/giphy.gif)
 
 # Getting Started
 
