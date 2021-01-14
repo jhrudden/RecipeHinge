@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:recipe_hinge/bloc/user_liked_recipes/user_liked_recipe_bloc.dart';
-import 'package:recipe_hinge/infrastructure/overall/repositories/database.dart';
 
-import 'package:recipe_hinge/presentation/user_recipe_view/widgets/user_liked_recipe_widget.dart';
-import 'package:recipe_hinge/presentation/util/widgets/loading_page.dart';
+import '../../../bloc/user_liked_recipes/user_liked_recipe_bloc.dart';
+import '../../../infrastructure/overall/repositories/database.dart';
+import '../../util/widgets/loading_page.dart';
+import 'user_liked_recipe_widget.dart';
 
 class UserRecipePage extends StatelessWidget {
   const UserRecipePage({Key key}) : super(key: key);

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:recipe_hinge/bloc/user_liked_recipes/user_liked_recipe_bloc.dart';
-import 'package:recipe_hinge/infrastructure/overall/repositories/storage_service.dart';
-import 'package:recipe_hinge/models/recipe_card.dart';
-import 'package:recipe_hinge/presentation/util/widgets/recipe_scroll_view.dart';
+
+import '../../../bloc/user_liked_recipes/user_liked_recipe_bloc.dart';
+import '../../../infrastructure/overall/repositories/storage_service.dart';
+import '../../../models/recipe_card.dart';
+import '../../util/widgets/recipe_scroll_view.dart';
 
 class UserLikedRecipeWidget extends StatefulWidget {
   final List<RecipeCard> recipeCards;

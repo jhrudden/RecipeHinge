@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:recipe_hinge/presentation/util/models/quiz_card_combo.dart';
 
 import '../../../bloc/quiz/quiz_bloc.dart';
+import '../../util/models/quiz_card_combo.dart';
 
 class QuizCardWidget extends StatelessWidget {
   final QuizCardCombo combo;

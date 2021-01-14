@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:provider/provider.dart';
-import '../../user_recipe_view/widgets/user_recipe_page.dart';
 
 import '../../../auth/infrastructure/authentication_service.dart';
 import '../../../infrastructure/overall/repositories/database.dart';
 import '../../../models/dashboard_item.dart';
 import '../../quiz/widgets/quiz.dart';
 import '../../recipe_swipe/widgets/recipe_swipe.dart';
+import '../../user_recipe_view/widgets/user_recipe_page.dart';
 
 class Home extends StatelessWidget {
   final DashBoardItem quiz = DashBoardItem(

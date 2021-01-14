@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
-import 'package:recipe_hinge/presentation/util/models/quiz_card_combo.dart';
 
 import '../../infrastructure/overall/repositories/database.dart';
 import '../../infrastructure/overall/repositories/user_data_service.dart';
 import '../../infrastructure/quiz/repositories/quiz_manager.dart';
+import '../../presentation/util/models/quiz_card_combo.dart';
 
 part 'quiz_event.dart';
 part 'quiz_state.dart';

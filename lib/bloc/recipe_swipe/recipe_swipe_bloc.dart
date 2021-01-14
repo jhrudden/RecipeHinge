@@ -3,9 +3,10 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
+import '../../infrastructure/overall/repositories/database.dart';
 import '../../infrastructure/recipe_swipe/repository/recipe_swipe_manager.dart';
 import '../../models/recipe_card.dart';
-import '../../infrastructure/overall/repositories/database.dart';
 
 part 'recipe_swipe_event.dart';
 part 'recipe_swipe_state.dart';
